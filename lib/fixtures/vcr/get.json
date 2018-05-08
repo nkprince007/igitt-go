@@ -1,0 +1,67 @@
+{
+  "Episodes": [
+    {
+      "Request": {
+        "Method": "GET",
+        "URL": "https://jsonplaceholder.typicode.com/todos/1",
+        "Body": null
+      },
+      "Response": {
+        "Status": "200 OK",
+        "StatusCode": 200,
+        "ContentLength": -1,
+        "Header": {
+          "Access-Control-Allow-Credentials": [
+            "true"
+          ],
+          "Cache-Control": [
+            "public, max-age=14400"
+          ],
+          "Cf-Cache-Status": [
+            "HIT"
+          ],
+          "Cf-Ray": [
+            "417b1e037fc2a924-SIN"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Tue, 08 May 2018 10:07:04 GMT"
+          ],
+          "Etag": [
+            "W/\"53-hfEnumeNh6YirfjyjaujcOPPT+s\""
+          ],
+          "Expect-Ct": [
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+          ],
+          "Expires": [
+            "Tue, 08 May 2018 14:07:04 GMT"
+          ],
+          "Pragma": [
+            "no-cache"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Set-Cookie": [
+            "__cfduid=dc1761a5f4a8ea108659f5ac2386e43941525774024; expires=Wed, 08-May-19 10:07:04 GMT; path=/; domain=.typicode.com; HttpOnly"
+          ],
+          "Vary": [
+            "Origin, Accept-Encoding"
+          ],
+          "Via": [
+            "1.1 vegur"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Powered-By": [
+            "Express"
+          ]
+        },
+        "Body": "ewogICJ1c2VySWQiOiAxLAogICJpZCI6IDEsCiAgInRpdGxlIjogImRlbGVjdHVzIGF1dCBhdXRlbSIsCiAgImNvbXBsZXRlZCI6IGZhbHNlCn0="
+      }
+    }
+  ]
+}
