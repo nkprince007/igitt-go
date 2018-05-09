@@ -1,5 +1,7 @@
 package igitt
 
+import "github.com/nkprince007/igitt-go/github"
+
 // Repository represents a repository on any Git hosting provider like GitHub,
 // GitLab, etc.
 type Repository interface {
@@ -12,6 +14,7 @@ type Repository interface {
 	HasIssues() bool
 	IsPrivate() bool
 	IsFork() bool
+	Parent() *github.Repository
 
 	// Delete()
 	// Clone()
@@ -37,9 +40,10 @@ type Repository interface {
 	// 	state string)
 	// GetAllMergeRequests()
 
-	// CreateLabel(name string, color string, description string, labelType string)
-	// DeleteLabel(name string)
-	// GetAllLabels()
+	CreateLabel(
+		name string, color string, description string, labelType string) error
+	DeleteLabel(name string) error
+	GetAllLabels() ([]string, error)
 
 	// GetAllCommits()
 	String() string
