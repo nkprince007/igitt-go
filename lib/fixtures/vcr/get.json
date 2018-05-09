@@ -4,7 +4,7 @@
       "Request": {
         "Method": "GET",
         "URL": "https://jsonplaceholder.typicode.com/todos/1",
-        "Body": null
+        "Body": ""
       },
       "Response": {
         "Status": "200 OK",
@@ -21,13 +21,13 @@
             "HIT"
           ],
           "Cf-Ray": [
-            "417b1e037fc2a924-SIN"
+            "417e760adbdda97e-SIN"
           ],
           "Content-Type": [
             "application/json; charset=utf-8"
           ],
           "Date": [
-            "Tue, 08 May 2018 10:07:04 GMT"
+            "Tue, 08 May 2018 19:51:27 GMT"
           ],
           "Etag": [
             "W/\"53-hfEnumeNh6YirfjyjaujcOPPT+s\""
@@ -36,7 +36,7 @@
             "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
           ],
           "Expires": [
-            "Tue, 08 May 2018 14:07:04 GMT"
+            "Tue, 08 May 2018 23:51:27 GMT"
           ],
           "Pragma": [
             "no-cache"
@@ -45,7 +45,7 @@
             "cloudflare"
           ],
           "Set-Cookie": [
-            "__cfduid=dc1761a5f4a8ea108659f5ac2386e43941525774024; expires=Wed, 08-May-19 10:07:04 GMT; path=/; domain=.typicode.com; HttpOnly"
+            "__cfduid=d57120a1276e59e29b6a53e956035fc901525809087; expires=Wed, 08-May-19 19:51:27 GMT; path=/; domain=.typicode.com; HttpOnly"
           ],
           "Vary": [
             "Origin, Accept-Encoding"

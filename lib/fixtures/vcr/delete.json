@@ -1,0 +1,43 @@
+{
+  "Episodes": [
+    {
+      "Request": {
+        "Method": "DELETE",
+        "URL": "https://reqres.in/api/users/2",
+        "Body": ""
+      },
+      "Response": {
+        "Status": "204 No Content",
+        "StatusCode": 204,
+        "ContentLength": 0,
+        "Header": {
+          "Access-Control-Allow-Origin": [
+            "*"
+          ],
+          "Cf-Ray": [
+            "4182137f2daca984-SIN"
+          ],
+          "Date": [
+            "Wed, 09 May 2018 06:23:14 GMT"
+          ],
+          "Etag": [
+            "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\""
+          ],
+          "Expect-Ct": [
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Set-Cookie": [
+            "__cfduid=d1a8a63342623541f75529dc22e0fc7991525846993; expires=Thu, 09-May-19 06:23:13 GMT; path=/; domain=.reqres.in; HttpOnly"
+          ],
+          "X-Powered-By": [
+            "Express"
+          ]
+        },
+        "Body": ""
+      }
+    }
+  ]
+}
